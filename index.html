@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<script src="/lists/cryptolist.js"></script>
+<script src="crawl.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h1>Cryptocurrency crawler</h1>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+
+<p>The purpose of this website is to provide the community with cryptocurrency musings and tools.</p>
+
+
+
+
+
+
+<br>
+
+<p id="test"></p>
+
+<script>
+    document.getElementById("test").innerHTML = String(test);
+</script>
+
+
+
+
+<center>
+<div class="dropdown">
+  <button onclick="cryptolist()" class="dropbtn">Cryptocurrency Key</button>
+  <div id="cryptolistid" class="dropdown-content">
+    <a href="/coins/bitcoin.html">Bitcoin (BTC)</a>
+    <a href="/coins/ethereum.html">Ethereum (ETH)</a>
+    <a href="/coins/dogecoin.html">Dogecoin (DOGE)</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+</html>
